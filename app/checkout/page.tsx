@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -7,6 +8,24 @@ import { Button } from "@/components/ui/button";
 import CalendlyInlineWidget from "@/components/CalendlyInlineWidget";
 
 export default function CheckoutPage() {
+    return (
+        <Suspense
+            fallback={
+                <div className="min-h-screen flex flex-col">
+                    <Navbar />
+                    <div className="flex-1 flex items-center justify-center bg-white text-xs uppercase tracking-[0.35em] text-neutral-500">
+                        Loading checkout...
+                    </div>
+                    <Footer />
+                </div>
+            }
+        >
+            <CheckoutContent />
+        </Suspense>
+    );
+}
+
+function CheckoutContent() {
     const searchParams = useSearchParams();
     const router = useRouter();
 

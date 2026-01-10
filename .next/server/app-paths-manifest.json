@@ -1,0 +1,20 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/api/availability/route": "app/api/availability/route.js",
+  "/api/calendly/availability/route": "app/api/calendly/availability/route.js",
+  "/api/calendly/event-type/route": "app/api/calendly/event-type/route.js",
+  "/api/calendly/schedule/route": "app/api/calendly/schedule/route.js",
+  "/api/calendly/test/route": "app/api/calendly/test/route.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/book-now/page": "app/book-now/page.js",
+  "/booking/[slug]/[subSlug]/page": "app/booking/[slug]/[subSlug]/page.js",
+  "/booking/[slug]/page": "app/booking/[slug]/page.js",
+  "/booking/page": "app/booking/page.js",
+  "/checkout/page": "app/checkout/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/page": "app/page.js",
+  "/policies/page": "app/policies/page.js",
+  "/services/page": "app/services/page.js"
+}
