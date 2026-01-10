@@ -50,7 +50,7 @@ export const bookingCategories: BookingCategory[] = [
                         name: "XSmall Box Braids",
                         price: "",
                         description: "5 options",
-                        //image: "/Braids/Box-Braids/box.jpg",
+                        // image preview intentionally omitted (no asset yet)
                         lengthOptions: [
                             { name: "Shoulder Length", price: "$300", notes: "$50.00 deposit required" },
                             { name: "Bra Strap Length", price: "$350", notes: "$50.00 deposit required" },
@@ -63,7 +63,7 @@ export const bookingCategories: BookingCategory[] = [
                         name: "Small Box Braids",
                         price: "",
                         description: "5 options",
-                        image: "/Braids/Box-Braids/small.jpg",
+                        image: "/Braids/Box-Braids/small.JPG",
                         lengthOptions: [
                             { name: "Shoulder Length", price: "$280", notes: "$50.00 deposit required" },
                             { name: "Bra Strap Length", price: "$300", notes: "$50.00 deposit required" },
@@ -183,7 +183,7 @@ export const bookingCategories: BookingCategory[] = [
                         name: "Small Knotless Braids",
                         price: "",
                         description: "3 OPTIONS",
-                        image: "/Braids/knotless/small.jpg",
+                        image: "/Braids/Knotless/small.jpg",
                         lengthOptions: [
                             { name: "Bra Length", price: "$300", notes: "$50.00 deposit required" },
                             { name: "Waist Length", price: "$370", notes: "$50.00 deposit required" },
@@ -195,10 +195,10 @@ export const bookingCategories: BookingCategory[] = [
                         name: "Smedium Knotless Braids",
                         price: "",
                         description: "3 OPTIONS",
-                        image: "/Braids/knotless/smedium.jpg",
+                        image: "/Braids/Knotless/Smedium.JPG",
                         images: [
-                            "/Braids/knotless/smedium.jpg",
-                            "/Braids/knotless/Smedium1.jpg",
+                            "/Braids/Knotless/Smedium.JPG",
+                            "/Braids/Knotless/Smedium1.JPG",
                         ],
                         lengthOptions: [
                             { name: "Bra Length", price: "$280", notes: "$50.00 deposit required" },
@@ -211,7 +211,7 @@ export const bookingCategories: BookingCategory[] = [
                         name: "Medium Knotless Braids",
                         price: "",
                         description: "3 OPTIONS",
-                        image: "/Braids/knotless/Medium.jpg",
+                        image: "/Braids/Knotless/Medium.JPG",
                         lengthOptions: [
                             { name: "Bra Length", price: "$260", notes: "$50.00 deposit required" },
                             { name: "Waist Length", price: "$300", notes: "$50.00 deposit required" },
@@ -295,8 +295,8 @@ export const bookingCategories: BookingCategory[] = [
                         price: "",
                         description: "2 OPTIONS",
                         //notes: "Hair not included",
-                        image: "/Braids/knotless/small-curl.JPEG",
-                        images: ["/Braids/knotless/small-curl.JPEG", "/Braids/knotless/small1.JPG"],
+                        image: "/Braids/Knotless/small-curl.JPEG",
+                        images: ["/Braids/Knotless/small-curl.JPEG", "/Braids/Knotless/small1.JPG"],
                         lengthOptions: [
                             { name: "Waist Length", price: "$330", notes: "$50.00 deposit required" },
                             { name: "Butt Length", price: "$380", notes: "$50.00 deposit required" },
@@ -337,7 +337,7 @@ export const bookingCategories: BookingCategory[] = [
                         price: "",
                         description: "3 OPTIONS",
                         //notes: "Human hair included",
-                        //image: "/Braids/Boho-Knotless/boho-xs.jpg",
+                        // image preview intentionally omitted (no asset yet)
                         lengthOptions: [
                             { name: "Bra Strap Length", price: "$320", notes: "$50.00 deposit required" },
                             { name: "Waist Length", price: "$400", notes: "$50.00 deposit required" },
@@ -376,7 +376,7 @@ export const bookingCategories: BookingCategory[] = [
                         price: "",
                         description: "3 OPTIONS",
                         //notes: "Human hair included",
-                        image: "/Braids/Boho-Knotless/boho5.JPG",
+                        image: "/Braids/Boho-Knotless/boho5.jpg",
                         
                         lengthOptions: [
                             { name: "Bra Strap Length", price: "$260", notes: "$50.00 deposit required" },
@@ -497,7 +497,7 @@ export const bookingCategories: BookingCategory[] = [
                     },
                     {
                         name: "Medium Knotless Bob Boho",
-                        image: "/Braids/knotless/knotless-bob.png",
+                        image: "/Braids/Knotless/knotless-bob.png",
                         price: "",
                         description: "1 OPTION",
                         lengthOptions: [
@@ -584,7 +584,7 @@ export const bookingCategories: BookingCategory[] = [
                         name: "Small Island Twist",
                         price: "",
                         description: "3 OPTIONS",
-                        image: "/Braids/Island-Twist/Island2.jpg",
+                        image: "/Braids/Island-Twist/Island2.JPG",
                         lengthOptions: [
                             { name: "Bra Length", price: "$360", notes: "$50.00 deposit required" },
                             { name: "Waist Length", price: "$380", notes: "$50.00 deposit required" },
@@ -638,25 +638,14 @@ export const bookingCategories: BookingCategory[] = [
                         name: "Small Passion Twist",
                         price: "",
                         description: "2 OPTIONS",
-                        image: "/Braids/Passion-Twist/passion1.JPG",
-                        images:[
-                        "/Braids/Passion-Twist/passion4.JPG",
-                        "/Braids/Passion-Twist/passion1.JPG",
+                        image: "/Braids/Passion-Twist/passion1.jpg",
+                        images: [
+                            "/Braids/Passion-Twist/passion4.jpg",
+                            "/Braids/Passion-Twist/passion1.jpg",
                         ],
                         lengthOptions: [
                             { name: "Waist Length", price: "$260", notes: "$50.00 deposit required" },
                             { name: "Butt Length", price: "$300", notes: "$50.00 deposit required" },
-                        ],
-                        link: defaultBookingUrl,
-                    },
-                    {
-                        name: "Medium Passion Twist",
-                        price: "",
-                        description: "2 OPTIONS",
-                        image: "/Braids/Passion-Twist/Passion3.JPG",
-                        lengthOptions: [
-                            { name: "Waist Length", price: "$240", notes: "$50.00 deposit required" },
-                            { name: "Butt Length", price: "$280", notes: "$50.00 deposit required" },
                         ],
                         link: defaultBookingUrl,
                     },
@@ -877,7 +866,7 @@ export const bookingCategories: BookingCategory[] = [
                         name: "Smedium Regular French Curl",
                         price: "",
                         description: "2 OPTIONS",
-                        //image: "/Braids/knotless/small-curl.JPEG",
+                        // image preview intentionally omitted (no asset yet)
                         lengthOptions: [
                             { name: "Waist Length", price: "$300", notes: "$50.00 deposit required" },
                             { name: "Butt Length", price: "$320", notes: "$50.00 deposit required" },
@@ -1089,7 +1078,7 @@ export const bookingCategories: BookingCategory[] = [
                         name: "Small Knotless Kids",
                         price: "",
                         description: "4 OPTIONS",
-                        image: "/Braids/Kids/Kid2.JPG",
+                        image: "/Braids/Kids/kid2.JPG",
                         lengthOptions: [
                             { name: "Shoulder Length", price: "$180", notes: "$50.00 deposit required" },
                             { name: "Bra Length", price: "$220", notes: "$50.00 deposit required" },
@@ -1114,7 +1103,7 @@ export const bookingCategories: BookingCategory[] = [
                         name: "Medium Knotless Kids",
                         price: "",
                         description: "4 OPTIONS",
-                        image: "/Braids/Kids/Kid3.JPG",
+                        image: "/Braids/Kids/kid3.jpg",
                         lengthOptions: [
                             { name: "Shoulder Length", price: "$140", notes: "$50.00 deposit required" },
                             { name: "Bra Length", price: "$180", notes: "$50.00 deposit required" },
@@ -1145,7 +1134,7 @@ export const bookingCategories: BookingCategory[] = [
                         name: "Small Box Braids Kids",
                         price: "",
                         description: "4 OPTIONS",
-                        image: "/Braids/Kids/Kid1.JPG",
+                        image: "/Braids/Kids/kid1.JPG",
                         lengthOptions: [
                             { name: "Shoulder Length", price: "$180", notes: "$50.00 deposit required" },
                             { name: "Bra Length", price: "$200", notes: "$50.00 deposit required" },
@@ -1158,7 +1147,7 @@ export const bookingCategories: BookingCategory[] = [
                         name: "Smedium Box Braids Kids",
                         price: "",
                         description: "4 OPTIONS",
-                        image: "/Braids/Kids/kid6.JPG",
+                        image: "/Braids/Kids/kid6.jpg",
                         lengthOptions: [
                             { name: "Shoulder Length", price: "$160", notes: "$50.00 deposit required" },
                             { name: "Bra Length", price: "$180", notes: "$50.00 deposit required" },
