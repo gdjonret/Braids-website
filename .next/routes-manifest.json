@@ -1,6 +1,7 @@
 {
   "version": 3,
   "pages404": true,
+  "appType": "app",
   "caseSensitive": false,
   "basePath": "",
   "redirects": [
@@ -8,6 +9,7 @@
       "source": "/:path+/",
       "destination": "/:path+",
       "internal": true,
+      "priority": true,
       "statusCode": 308,
       "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
     }
@@ -45,6 +47,12 @@
       "namedRegex": "^/(?:/)?$"
     },
     {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
       "page": "/_not-found",
       "regex": "^/_not\\-found(?:/)?$",
       "routeKeys": {},
@@ -55,6 +63,42 @@
       "regex": "^/about(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/api/availability",
+      "regex": "^/api/availability(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/availability(?:/)?$"
+    },
+    {
+      "page": "/api/calendly/availability",
+      "regex": "^/api/calendly/availability(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/calendly/availability(?:/)?$"
+    },
+    {
+      "page": "/api/calendly/event-type",
+      "regex": "^/api/calendly/event\\-type(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/calendly/event\\-type(?:/)?$"
+    },
+    {
+      "page": "/api/calendly/schedule",
+      "regex": "^/api/calendly/schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/calendly/schedule(?:/)?$"
+    },
+    {
+      "page": "/api/calendly/test",
+      "regex": "^/api/calendly/test(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/calendly/test(?:/)?$"
+    },
+    {
+      "page": "/api/contact",
+      "regex": "^/api/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/contact(?:/)?$"
     },
     {
       "page": "/book-now",
@@ -107,10 +151,11 @@
     "didPostponeHeader": "x-nextjs-postponed",
     "contentTypeHeader": "text/x-component",
     "suffix": ".rsc",
-    "prefetchSuffix": ".prefetch.rsc",
     "prefetchSegmentHeader": "next-router-segment-prefetch",
     "prefetchSegmentSuffix": ".segment.rsc",
-    "prefetchSegmentDirSuffix": ".segments"
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
   },
   "rewriteHeaders": {
     "pathHeader": "x-nextjs-rewritten-path",

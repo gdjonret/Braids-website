@@ -230,6 +230,7 @@ function createIpc(port) {
     };
     let buffer = Buffer.alloc(0);
     socket.once('connect', ()=>{
+        socket.setNoDelay(true);
         socket.on('data', (chunk)=>{
             buffer = Buffer.concat([
                 buffer,
