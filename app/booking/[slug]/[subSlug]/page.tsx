@@ -176,7 +176,7 @@ export default function BookingSubcategoryPage({ params }: BookingSubcategoryPag
                                     className="rounded-none border border-neutral-900 bg-neutral-900 px-5 md:px-7 py-2 text-[10px] font-medium uppercase tracking-[0.3em] text-white transition-all hover:bg-transparent hover:text-neutral-900 shrink-0 whitespace-nowrap"
                                     onClick={() => openModalForItem(index)}
                                 >
-                                    Book Now
+                                    Select
                                 </Button>
                             </div>
                         </div>
@@ -339,7 +339,7 @@ export default function BookingSubcategoryPage({ params }: BookingSubcategoryPag
                             onClick={handleModalSelect}
                             className="mt-8 w-full rounded-none border border-neutral-900 bg-neutral-900 py-3 text-xs font-medium uppercase tracking-[0.3em] text-white transition-all hover:bg-transparent hover:text-neutral-900 disabled:cursor-not-allowed disabled:border-neutral-200 disabled:bg-neutral-200 disabled:text-neutral-500 disabled:hover:bg-neutral-200 disabled:hover:text-neutral-500"
                         >
-                            Book Now
+                            Select & Book
                         </Button>
                     </div>
                 </div>
