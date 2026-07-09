@@ -43,7 +43,7 @@ type ContactPayload = {
 };
 
 const buildMessage = ({ name, email, phone, message }: ContactPayload) => {
-    const recipient = process.env.CONTACT_RECIPIENT_EMAIL ?? "djonretglo@gmail.com";
+    const recipient = process.env.CONTACT_RECIPIENT_EMAIL ?? "Zeboobraids@gmail.com";
     const subject = `New message from ${name}`;
     const phoneLine = phone ? `<p><strong>Phone:</strong> ${phone}</p>` : "";
 
